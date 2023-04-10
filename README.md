@@ -6,6 +6,10 @@
 
 # typescript-config
 
+## About
+
+The presence of a tsconfig.json file in a directory indicates that the directory is the root of a TypeScript project. The tsconfig.json file specifies the root files and the compiler options required to compile the project (from https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+
 ## Installation
 
 ```
@@ -13,3 +17,19 @@ npx install-peerdeps --dev @edx/typescript-config
 ```
 
 This will install the package and all of its peer dependencies.
+
+## Usage
+
+Create file in repository `tsconfig.json`, with a clause `"extends": "@edx/typescript-config"`, adding references to the root directory, output directory, and directories to include/exclude in TypeScript compilation.
+
+```Sample json
+{
+  "extends": "@edx/typescript-config",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules"]
+}
+```
