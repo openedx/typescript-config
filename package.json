@@ -1,0 +1,29 @@
+{
+  "name": "@edx/typescript-config",
+  "version": "1.0.0-semantically-released",
+  "description": "Typescript configuration for edX JavaScript code.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openedx/typescript-config.git"
+  },
+  "keywords": [
+    "typescript",
+    "edx"
+  ],
+  "author": "edX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openedx/typescript-config/issues"
+  },
+  "homepage": "https://github.com/openedx/typescript-config#readme",
+  "devDependencies": {
+  },
+  "peerDependencies": {
+  }
+}
