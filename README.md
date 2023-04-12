@@ -1,10 +1,10 @@
 [![Build Status](https://github.com/openedx/typescript-config/actions/workflows/release.yml/badge.svg)](https://github.com/openedx/typescript-config/actions/workflows/release.yml/)
-[![NPM Version](https://img.shields.io/npm/v/@edx/eslint-config.svg)](https://www.npmjs.com/package/@edx/eslint-config)
-[![npm_downloads](https://img.shields.io/npm/dt/@edx/eslint-config.svg)](https://www.npmjs.com/package/@edx/eslint-config)
-[![license](https://img.shields.io/npm/l/@edx/eslint-config.svg)](https://github.com/openedx/eslint-config/blob/master/LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/@edx/typescript-config.svg)](https://www.npmjs.com/package/@edx/typescript-config)
+[![npm_downloads](https://img.shields.io/npm/dt/@edx/typescript-config.svg)](https://www.npmjs.com/package/@edx/tpyescript-config)
+[![license](https://img.shields.io/npm/l/@edx/typescript-config.svg)](https://github.com/openedx/typescript-config/blob/main/LICENSE)
 [![semantic release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-# typescript-config
+# @edx/typescript-config
 
 ## About
 
