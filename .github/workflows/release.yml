@@ -17,6 +17,10 @@ jobs:
           fetch-depth: 0
       - name: Setup Nodejs Env
         run: echo "NODE_VER=`cat .nvmrc`" >> $GITHUB_ENV
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VER }}
       - name: Release
         uses: cycjimmy/semantic-release-action@v2
         with:
