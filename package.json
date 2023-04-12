@@ -1,7 +1,7 @@
 {
   "name": "@edx/typescript-config",
   "version": "1.0.0-semantically-released",
-  "description": "Typescript configuration for edX JavaScript code.",
+  "description": "TypeScript configuration for edX JavaScript code.",
   "main": "tsconfig.json",
   "scripts": {
   },
