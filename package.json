@@ -10,10 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/typescript-config.git"
+    "url": "git@github.com:openedx/typescript-config.git"
   },
   "keywords": [
     "typescript",
+    "tsconfig",
+    "open edx",
     "edx"
   ],
   "author": "edX",
