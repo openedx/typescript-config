@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.org/edx/eslint-config.svg?branch=master)](https://travis-ci.org/edx/eslint-config)
+[![Build Status](https://github.com/openedx/typescript-config/actions/workflows/release.yml/badge.svg)](https://github.com/openedx/typescript-config/actions/workflows/release.yml/)
 [![NPM Version](https://img.shields.io/npm/v/@edx/eslint-config.svg)](https://www.npmjs.com/package/@edx/eslint-config)
 [![npm_downloads](https://img.shields.io/npm/dt/@edx/eslint-config.svg)](https://www.npmjs.com/package/@edx/eslint-config)
 [![license](https://img.shields.io/npm/l/@edx/eslint-config.svg)](https://github.com/openedx/eslint-config/blob/master/LICENSE)
