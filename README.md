@@ -33,3 +33,5 @@ Create file in repository `tsconfig.json`, with a clause `"extends": "@edx/types
   "exclude": ["dist", "node_modules"]
 }
 ```
+
+test pr to run ci checks
