@@ -12,7 +12,7 @@
       "ESNext"
     ],
     "isolatedModules": true,
-    "module": "ES6",
+    "module": "ESNext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": false,
