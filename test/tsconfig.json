@@ -1,0 +1,14 @@
+// Mirrors how an Open edX frontend consumes this package, e.g.
+// https://github.com/openedx/frontend-app-authoring/blob/master/tsconfig.json
+{
+  "extends": "..",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist",
+    "paths": {
+      "@test/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "types/**/*"],
+  "exclude": ["dist", "errors", "node_modules"]
+}

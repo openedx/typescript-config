@@ -3,7 +3,11 @@
   "version": "1.0.0-semantically-released",
   "description": "TypeScript configuration for edX JavaScript code.",
   "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
   "scripts": {
+    "test": "node scripts/run-tests.mjs"
   },
   "publishConfig": {
     "access": "public"
@@ -25,8 +29,10 @@
   },
   "homepage": "https://github.com/openedx/typescript-config#readme",
   "devDependencies": {
+    "@types/react": "^19.2.2",
+    "typescript": "^6.0.3"
   },
   "peerDependencies": {
-    "typescript": "^4.9.4"
+    "typescript": "^6.0.0 || ^7.0.0"
   }
 }
