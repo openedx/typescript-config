@@ -1,5 +1,5 @@
 name: Default CI
-on: 
+on:
   push:
     branches:
     - 'master'
@@ -9,6 +9,13 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # Every TypeScript major this config supports, per the `typescript`
+        # peerDependency range in package.json.
+        typescript: ['6', '7']
+    name: Type check (TypeScript ${{ matrix.typescript }})
     steps:
     - name: Checkout
       uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3.6.0
@@ -20,3 +27,9 @@ jobs:
       uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3.9.1
       with:
         node-version: ${{ env.NODE_VER }}
+    - name: Install dependencies
+      run: npm ci
+    - name: Install TypeScript ${{ matrix.typescript }}
+      run: npm install --no-save typescript@${{ matrix.typescript }}
+    - name: Run tests
+      run: npm test

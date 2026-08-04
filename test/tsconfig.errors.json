@@ -1,0 +1,9 @@
+// The negative fixture: this project is expected to FAIL type checking.
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["errors/**/*", "src/**/*", "types/**/*"],
+  "exclude": ["dist", "node_modules"]
+}

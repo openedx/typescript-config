@@ -13,7 +13,7 @@
     ],
     "isolatedModules": true,
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": false,
     "noImplicitThis": true,
